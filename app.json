@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "weatherapp",
+    "slug": "snack-9c3de54a-2bfe-48d6-b0b6-458ada5e4f5f",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shubh.weatherapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.shubh.weatherapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
